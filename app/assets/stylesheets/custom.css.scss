@@ -3,6 +3,7 @@ $navbar-default-bg: #75A1D0;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 #logo {
     float: left;
     font-size: 1.7em;
@@ -10,6 +11,7 @@ $navbar-default-bg: #75A1D0;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
+    
 }
 
 #logo:hover {
@@ -51,6 +53,11 @@ $navbar-default-bg: #75A1D0;
     float: left;
     background: #FFCC11;
     color: black;
+}
+
+.article-meta-details {
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
 }
 
 .article-actions {
